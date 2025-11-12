@@ -240,6 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16834415}
   - component: {fileID: 16834416}
+  - component: {fileID: 16834417}
   m_Layer: 0
   m_Name: BodyCavity
   m_TagString: Untagged
@@ -285,6 +286,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &16834417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16834414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a5b3cc2c6165a49b37ce675dba89b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoundaryZone
 --- !u!4 &17355330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5161989964646342875, guid: c18c2334d0f5bb94cbb090401535d577, type: 3}
@@ -14794,6 +14807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1984912112}
+  - component: {fileID: 1984912113}
   m_Layer: 0
   m_Name: Bin_NewOrgans
   m_TagString: Untagged
@@ -14816,6 +14830,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1984912113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984912111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605ede6661d7aba49a10550e45517911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrganSpawner
+  spawnList: []
+  spawnPoint: {fileID: 0}
+  respawnDelay: 0.5
 --- !u!1 &1988569315
 GameObject:
   m_ObjectHideFlags: 0
