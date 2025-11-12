@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     {
         strikes++;
         Play(buzzClip);
-        Haptics(0.3f, 0.2f); // simple placeholder haptique si tu ajoutes un wrapper
+        Haptics(0.3f, 0.2f); // placeholder haptique
 
         if (strikes >= strikesLimit)
         {
@@ -56,7 +56,6 @@ public class GameManager : MonoBehaviour
 
     void Haptics(float amplitude, float duration)
     {
-        // Si tu utilises XRIT : cible les XRBaseController pour vibrer.
-        // Laisse vide ici, ou fais un petit wrapper selon ton rig.
+        // XRBaseController pour vibrer.
     }
 }
