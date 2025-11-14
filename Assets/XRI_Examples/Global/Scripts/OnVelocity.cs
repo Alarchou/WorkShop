@@ -49,7 +49,7 @@ namespace UnityEngine.XR.Content.Interaction
 
         void CheckVelocity()
         {
-            var speed = m_RigidBody.linearVelocity.magnitude;
+            var speed = m_RigidBody.velocity.magnitude;
             m_HasBegun = HasVelocityBegun(speed);
 
             if (HasVelocityEnded(speed))
