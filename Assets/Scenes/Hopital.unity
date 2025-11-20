@@ -765,6 +765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MonstreRig&Skin
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f13f727d0d3f04bbccb52f97176991, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1545105276116794894, guid: 18f13f727d0d3f04bbccb52f97176991, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2225,15 +2229,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688973272}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.01, y: 1.33, z: 0.474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08395994, y: 0.09821999, z: -0.13312998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 301843391}
   - {fileID: 1335287034}
   - {fileID: 217368114}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1798274028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &713889455
 PrefabInstance:
@@ -3363,13 +3367,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071944040}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.60876125, w: 0.7933535}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09768422, y: 0.1766825, z: 0.1766825}
+  m_LocalRotation: {x: 0.028799934, y: 0.028268972, z: 0.6999269, w: 0.7130735}
+  m_LocalPosition: {x: -0.487, y: 0.094, z: -0.117}
+  m_LocalScale: {x: 0.13678783, y: 0.1766825, z: 0.23575409}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1798274028}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 75}
+  m_LocalEulerAnglesHint: {x: 0.086, y: 4.625, z: 88.937}
 --- !u!1 &1116779236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5179,6 +5183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterScreamer
   screamerVideo: {fileID: 1798274027}
   screamerCanvas: {fileID: 1365112823}
+  planeRenderer: {fileID: 0}
 --- !u!1 &1525207114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9da59ea7dccf32141a43f076619bd0dc, type: 3}
@@ -6320,6 +6325,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1071944044}
+  - {fileID: 688973273}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1825945902
@@ -9651,6 +9657,5 @@ SceneRoots:
   - {fileID: 304661440}
   - {fileID: 1172359032}
   - {fileID: 299971768}
-  - {fileID: 688973273}
   - {fileID: 1798274028}
   - {fileID: 1365112827}

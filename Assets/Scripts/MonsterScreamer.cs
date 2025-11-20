@@ -7,7 +7,14 @@ public class MonsterScreamer : MonoBehaviour
     public VideoPlayer screamerVideo;   // La vidéo du screamer
     public GameObject screamerCanvas;   // Le canvas/RawImage qui affiche la vidéo
 
+    public GameObject planeRenderer;
     private bool hasTriggered = false;
+
+    public void Start()
+    {
+        // Désactive le canvas au début
+        planeRenderer.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +24,8 @@ public class MonsterScreamer : MonoBehaviour
 
         // Active l’affichage du screamer
         screamerCanvas.SetActive(true);
+
+        planeRenderer.SetActive(true);
 
         // Lance la vidéo
         screamerVideo.Play();
