@@ -29,4 +29,11 @@ public class MonsterScreamer : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    [ContextMenu("Test Screamer")]
+    private void Test()
+    {
+        // Méthode de test pour déclencher le screamer manuellement
+        OnTriggerEnter(null);
+    }
 }
