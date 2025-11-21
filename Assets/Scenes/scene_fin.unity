@@ -189,8 +189,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661743428}
-  - component: {fileID: 661743427}
   - component: {fileID: 661743429}
+  - component: {fileID: 661743430}
   m_Layer: 0
   m_Name: ScreamerManagaer
   m_TagString: Untagged
@@ -198,21 +198,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &661743427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661743426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e2158086030254cbb18aa6a3f7bd5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreamerEndToHopital
-  videoPlayer: {fileID: 1476844352}
-  screamerSound: {fileID: 0}
-  soundDelay: 0.8
 --- !u!4 &661743428
 Transform:
   m_ObjectHideFlags: 0
@@ -235,7 +220,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661743426}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -325,6 +310,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &661743430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661743426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa50d5e8efd0f824b90c904604cd2cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitAfterVideo
+  videoPlayer: {fileID: 1476844352}
 --- !u!20 &701114412 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -387,7 +385,7 @@ GameObject:
   - component: {fileID: 1476844353}
   - component: {fileID: 1476844352}
   m_Layer: 0
-  m_Name: Screamer
+  m_Name: Animation_fin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +399,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476844351}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4d3897245a81569408f85f366af24543, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e94573460d89e4941b59c55675e305ae, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 701114412}
