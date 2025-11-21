@@ -2492,7 +2492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eca76f2428601044f916798f9c61d9f7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5148817236446094103, guid: eca76f2428601044f916798f9c61d9f7, type: 3}
       propertyPath: m_IsActive
@@ -3557,7 +3557,7 @@ MonoBehaviour:
   heartObject: {fileID: 5334037119483193978}
   lungObject: {fileID: 1684568291}
   stomachObject: {fileID: 8579624782295348022}
-  sceneName: VideoFin
+  sceneName: scene_fin
 --- !u!4 &1172359032
 Transform:
   m_ObjectHideFlags: 0
