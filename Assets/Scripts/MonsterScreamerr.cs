@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MonsterScreamerTrigger : MonoBehaviour
 {
-    [SerializeField] private string organTag = "Organ";              // Tag des organes
+    [SerializeField] private string organTag = "Organ";            // Tag des organes
     [SerializeField] private string screamerSceneName = "ScreamerScene"; // Nom de la scène screamer
 
     private void OnTriggerEnter(Collider other)
